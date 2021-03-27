@@ -20,20 +20,21 @@ public class CameraController : MonoBehaviour
 
         if (!doMovement)
             return;
+        //has mouse controls but they are commented out 
 
-        if(Input.GetKey("w") || Input.mousePosition.y >= Screen.height - panborderThickness)
+        if(Input.GetKey("w") /*|| Input.mousePosition.y >= Screen.height - panborderThickness*/)
         {
             transform.Translate(Vector3.forward * panSpeed * Time.deltaTime, Space.World);
         }
-        if (Input.GetKey("s") || Input.mousePosition.y <= panborderThickness)
+        if (Input.GetKey("s") /*|| Input.mousePosition.y <= panborderThickness*/)
         {
             transform.Translate(Vector3.back * panSpeed * Time.deltaTime, Space.World);
         }
-        if (Input.GetKey("d") || Input.mousePosition.x >= Screen.width - panborderThickness)
+        if (Input.GetKey("d") /*|| Input.mousePosition.x >= Screen.width - panborderThickness*/)
         {
             transform.Translate(Vector3.right * panSpeed * Time.deltaTime, Space.World);
         }
-        if (Input.GetKey("a") || Input.mousePosition.x <= panborderThickness)
+        if (Input.GetKey("a") /*|| Input.mousePosition.x <= panborderThickness*/)
         {
             transform.Translate(Vector3.left * panSpeed * Time.deltaTime, Space.World);
         }
