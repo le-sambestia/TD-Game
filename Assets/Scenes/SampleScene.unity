@@ -6008,7 +6008,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6200,7 +6200,7 @@ PrefabInstance:
     - target: {fileID: 1346174866397500866, guid: 0462cb8c3a0d72c4299b1b146e69496c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: AnotherStandardTurret
+      value: PurchaseMissileLauncher
       objectReference: {fileID: 0}
     - target: {fileID: 1346174866397500866, guid: 0462cb8c3a0d72c4299b1b146e69496c,
         type: 3}
@@ -6210,12 +6210,12 @@ PrefabInstance:
     - target: {fileID: 3115012707832667042, guid: 0462cb8c3a0d72c4299b1b146e69496c,
         type: 3}
       propertyPath: m_Name
-      value: AnotherTurretItem
+      value: MissileLauncherItem
       objectReference: {fileID: 0}
     - target: {fileID: 3968066828760323035, guid: 0462cb8c3a0d72c4299b1b146e69496c,
         type: 3}
       propertyPath: m_Text
-      value: AnotherOne
+      value: MissileLauncher
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0462cb8c3a0d72c4299b1b146e69496c, type: 3}
@@ -12260,9 +12260,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 827569ed25f756043b7fa570613e5ccd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StandardTurretPrefab: {fileID: 8534243670945296652, guid: 14cd04e820254ca40ac159b7dc102661,
+  StandardTurretPrefab: {fileID: 20399247573753973, guid: 66643331b37844b44a36992eee692dcf,
     type: 3}
-  anotherTurretPrefab: {fileID: 8534243670945296652, guid: f7208bfd1a2ac7d43a2c765a895cdf6d,
+  missileLauncherPrefab: {fileID: 1983195891707505907, guid: 24381551e1063fd429c632a3a933dbc2,
     type: 3}
 --- !u!1001 &1486784065
 PrefabInstance:
