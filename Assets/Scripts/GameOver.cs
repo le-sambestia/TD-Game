@@ -1,14 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameOver : MonoBehaviour
 {
-    public Text RoundText;
+    
+    public string menuName = "MainMenu";
 
-    void OnEnable()
+    public SceneFader sceneFader;
+
+
+    public void Retry()
     {
-        RoundText.text = PlayerStats.Rounds.ToString();
+        sceneFader.FadeTo(SceneManager.GetActiveScene().name);
     }
+
+    public void Menu()
+    {
+        sceneFader.FadeTo(menuName);
+    }
+
 }
