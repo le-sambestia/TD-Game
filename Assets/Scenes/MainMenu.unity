@@ -133,6 +133,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneFader
       objectReference: {fileID: 0}
+    - target: {fileID: 6384085003821359752, guid: 765909b6106a4f74ba65052d7ba35e3b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6384085003821359758, guid: 765909b6106a4f74ba65052d7ba35e3b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -226,7 +231,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -102}
-  m_SizeDelta: {x: -981.402, y: -514.6359}
+  m_SizeDelta: {x: -817.65857, y: -461.32413}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &253566456
 MonoBehaviour:
@@ -676,7 +681,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 63}
-  m_SizeDelta: {x: -818.74915, y: -437.58978}
+  m_SizeDelta: {x: -723.5493, y: -418.54987}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873082250
 MonoBehaviour:
