@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3374352127911884668}
   - component: {fileID: 3525554113421365193}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,6 +92,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 801cf419f6ef1e54891d2143ada64d83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 70
+  speed: 60
+  damage: 50
+  explosionRadius: 0
   impactEffect: {fileID: 2295629724926875350, guid: a12203dc08d5f0b42aa54793db3020e9,
     type: 3}

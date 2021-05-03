@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 793664521651747535}
   - component: {fileID: -3270263664734048094}
   m_Layer: 0
-  m_Name: StandardTurret_Upgraded
+  m_Name: Archer_Upgraded
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 20
-  fireRate: 1.5
+  fireRate: 1
   bulletPrefab: {fileID: 1808975944247657475, guid: aa977d18113a6f24cabd83330b356593,
     type: 3}
   useLaser: 0

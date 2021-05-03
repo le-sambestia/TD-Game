@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 1211022496913765961}
   - component: {fileID: 1183850546796875768}
   m_Layer: 0
-  m_Name: MissileLauncher_Upgraded
+  m_Name: Crossbowmen_Upgraded
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9468f699a460ddc4ba55ad15c77e02d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 40
+  range: 35
   fireRate: 0.5
   bulletPrefab: {fileID: 871457647404339948, guid: 0a39008ab7f294e4fa932efdf180fd9a,
     type: 3}

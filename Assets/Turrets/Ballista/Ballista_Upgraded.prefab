@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 793664521651747535}
   - component: {fileID: -3270263664734048094}
   m_Layer: 0
-  m_Name: StandardTurret_Upgraded
+  m_Name: Ballista_Upgraded
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 20
   fireRate: 1.5
-  bulletPrefab: {fileID: 1808975944247657475, guid: aa977d18113a6f24cabd83330b356593,
+  bulletPrefab: {fileID: 1808975944247657475, guid: 53c73024768049f4b95d2229fa0714fe,
     type: 3}
   useLaser: 0
   damageOverTime: 30
