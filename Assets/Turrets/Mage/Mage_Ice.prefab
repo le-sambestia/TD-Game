@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1655105950558421636}
   - component: {fileID: 5787238958184201097}
   m_Layer: 0
-  m_Name: Mage_Upgraded
+  m_Name: Mage_Ice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1655105950558421637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4964267414839543309}
   - {fileID: 5490125589330716880}
@@ -46,12 +46,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9468f699a460ddc4ba55ad15c77e02d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 20
+  range: 15
   fireRate: 1
   bulletPrefab: {fileID: 0}
   useLaser: 1
-  damageOverTime: 20
-  slowAmount: 0
+  damageOverTime: 0
+  slowAmount: 0.5
   lineRenderer: {fileID: 5787238958184201097}
   enemyTag: Enemy
   partToRotate: {fileID: 5490125589330716880}
@@ -107,7 +107,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.52132607
+        value: 0.3064518
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -212,9 +212,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5417719e530fdf14f95571d4ef24dd15, type: 2}
-  - {fileID: 2100000, guid: ab4fbbc188ad04a42856d1af1ad23a92, type: 2}
-  - {fileID: 2100000, guid: c57c3389af2b2174dab62c280d504b89, type: 2}
+  - {fileID: 2100000, guid: 61776cb941f0dc742b22047b16943639, type: 2}
+  - {fileID: 2100000, guid: e82a7ade4b1ba5d42b1f1b4d379efa60, type: 2}
+  - {fileID: 2100000, guid: 6cf6202d8b01cf04f9221856a4e62643, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
