@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class Shop : MonoBehaviour
 {
-    public TurretBlueprint standardTurret;
-    public TurretBlueprint missileLauncher;
-    public TurretBlueprint laserBeamer;
+    public TurretBlueprint archer;
+    public TurretBlueprint ballista;
+    public TurretBlueprint crossbowmen;
+    public TurretBlueprint mage;
+    public TurretBlueprint icemage;
+    public TurretBlueprint spearman;
+    public TurretBlueprint swordsman;
 
     BuildManager buildManager;
 
@@ -14,19 +18,43 @@ public class Shop : MonoBehaviour
     {
         buildManager = BuildManager.instance;
     }
-    public void SelectStandardTurret()
+    public void SelectArcher()
     {
-        Debug.Log("Standard Turret Selected");
-        buildManager.SelectTurretToBuild(standardTurret);
+        Debug.Log("Archer Selected");
+        buildManager.SelectTurretToBuild(archer);
     } 
-    public void SelectMissileLauncher()
+    public void SelectBallista()
     {
         Debug.Log("Missile Launcher Selected");
-        buildManager.SelectTurretToBuild(missileLauncher);
+        buildManager.SelectTurretToBuild(ballista);
     }
-    public void SelectLaserBeamer()
+    public void SelectCrossbowmen()
     {
         Debug.Log("Laser Beamer Selected");
-        buildManager.SelectTurretToBuild(laserBeamer);
+        buildManager.SelectTurretToBuild(crossbowmen);
+    }
+
+    public void SelectMage()
+    {
+        Debug.Log("Laser Beamer Selected");
+        buildManager.SelectTurretToBuild(mage);
+    }
+
+    public void SelectIceMage()
+    {
+        Debug.Log("Laser Beamer Selected");
+        buildManager.SelectTurretToBuild(icemage);
+    }
+
+    public void SelectSpearman()
+    {
+        Debug.Log("Laser Beamer Selected");
+        buildManager.SelectTurretToBuild(spearman);
+    }
+
+    public void SelectSwordsman()
+    {
+        Debug.Log("Laser Beamer Selected");
+        buildManager.SelectTurretToBuild(swordsman);
     }
 }
