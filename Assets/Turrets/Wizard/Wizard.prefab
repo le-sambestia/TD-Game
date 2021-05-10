@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 1211022496913765961}
   - component: {fileID: 1183850546796875768}
   m_Layer: 0
-  m_Name: MissileLauncher
+  m_Name: Wizard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -127,11 +127,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 30
   fireRate: 1
-  enemyTag: Enemy
-  partToRotate: {fileID: 675859144262990228}
-  turnSpeed: 10
   bulletPrefab: {fileID: 871457647404339948, guid: 0a39008ab7f294e4fa932efdf180fd9a,
     type: 3}
+  useLaser: 0
+  damageOverTime: 30
+  slowAmount: 0.5
+  lineRenderer: {fileID: 0}
+  enemyTag: Turret
+  partToRotate: {fileID: 675859144262990228}
+  turnSpeed: 10
   firePoint: {fileID: 3949547565491134913}
 --- !u!1 &3364061280422638407
 GameObject:

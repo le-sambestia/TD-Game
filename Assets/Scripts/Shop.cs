@@ -11,6 +11,7 @@ public class Shop : MonoBehaviour
     public TurretBlueprint icemage;
     public TurretBlueprint spearman;
     public TurretBlueprint swordsman;
+    public TurretBlueprint wizard;
 
     BuildManager buildManager;
 
@@ -56,5 +57,11 @@ public class Shop : MonoBehaviour
     {
         Debug.Log("Laser Beamer Selected");
         buildManager.SelectTurretToBuild(swordsman);
+    }
+    
+    public void SelectWizard()
+    {
+        Debug.Log("Laser Beamer Selected");
+        buildManager.SelectTurretToBuild(wizard);
     }
 }
