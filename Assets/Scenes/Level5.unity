@@ -10157,8 +10157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuSceneName: MainMenu
-  nextLevel: Level5
-  levelToUnlock: 5
+  nextLevel: Level1
+  levelToUnlock: 1
   sceneFader: {fileID: 1668239425}
 --- !u!1001 &920061293
 PrefabInstance:
@@ -18869,11 +18869,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 1182073720558077062, guid: 41eaca523d884a14d9fd87bdf1a33f55,
       type: 3}
     upgradeCost: 100
-  wizard:
-    prefab: {fileID: 0}
-    cost: 0
-    upgradedPrefab: {fileID: 0}
-    upgradeCost: 0
 --- !u!114 &1695743130
 MonoBehaviour:
   m_ObjectHideFlags: 0
