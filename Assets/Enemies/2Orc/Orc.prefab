@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 9084918420869039677}
   - component: {fileID: -393700505401341321}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Orc
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -356,10 +356,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c999e968077a6746b37903d1d95f9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startSpeed: 10
+  startSpeed: 7.5
   speed: 10
-  startHealth: 100
-  worth: 50
+  startHealth: 125
+  worth: 75
   healthBar: {fileID: 793201261}
 --- !u!114 &-393700505401341321
 MonoBehaviour:

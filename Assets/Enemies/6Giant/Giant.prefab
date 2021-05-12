@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 9084918420869039677}
   - component: {fileID: -393700505401341321}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Giant
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,8 +358,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startSpeed: 10
   speed: 10
-  startHealth: 100
-  worth: 50
+  startHealth: 250
+  worth: 200
   healthBar: {fileID: 793201261}
 --- !u!114 &-393700505401341321
 MonoBehaviour:
