@@ -10985,8 +10985,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuSceneName: MainMenu
-  nextLevel: MainMenu
-  levelToUnlock: 1
+  nextLevel: Level2
+  levelToUnlock: 2
   sceneFader: {fileID: 1668239425}
 --- !u!1 &1126328368
 GameObject:
@@ -15243,13 +15243,10 @@ MonoBehaviour:
   - enemy: {fileID: 8776937807554887365, guid: 7d7b1b37ee2428948bf69b375ab54d73, type: 3}
     count: 5
     rate: 1
-  - enemy: {fileID: 8776937807554887365, guid: 7d7b1b37ee2428948bf69b375ab54d73, type: 3}
+  - enemy: {fileID: 8776937807554887365, guid: c7e635156b0ac984c8f10d4d8b30f3fb, type: 3}
     count: 2
     rate: 1
-  - enemy: {fileID: 8776937807554887365, guid: c7e635156b0ac984c8f10d4d8b30f3fb, type: 3}
-    count: 10
-    rate: 1
-  timeBetweenWaves: 2
+  timeBetweenWaves: 5
   WaveCountdownText: {fileID: 841695183}
   gameManager: {fileID: 1463586104}
 --- !u!4 &1463586101
