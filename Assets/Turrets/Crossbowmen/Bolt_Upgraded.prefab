@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3374352127911884668}
   - component: {fileID: 3525554113421365193}
   m_Layer: 0
-  m_Name: Arrow
+  m_Name: Arrow_Upgraded
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b34ebff8d0e32614d8d7159890063336, type: 2}
+  - {fileID: 2100000, guid: fa4c2faa6e0beb04e8ab45a08767049d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -92,8 +92,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 801cf419f6ef1e54891d2143ada64d83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 60
-  damage: 50
+  speed: 70
+  damage: 75
   explosionRadius: 0
   impactEffect: {fileID: 2295629724926875350, guid: a12203dc08d5f0b42aa54793db3020e9,
     type: 3}
