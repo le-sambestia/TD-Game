@@ -833,7 +833,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Close Shop
 --- !u!222 &61137755
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12659,7 +12659,7 @@ MonoBehaviour:
       type: 3}
     upgradeCost: 100
   swordsman:
-    prefab: {fileID: 1182073720558077062, guid: 97762c0704e1a344a85240e5b69b901b,
+    prefab: {fileID: 1182073720558077062, guid: f26d7eaa9ad487f4baffa3db85330bf0,
       type: 3}
     cost: 100
     upgradedPrefab: {fileID: 1182073720558077062, guid: 41eaca523d884a14d9fd87bdf1a33f55,
@@ -13561,7 +13561,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Open Shop
 --- !u!222 &1319671616
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15246,7 +15246,7 @@ MonoBehaviour:
   - enemy: {fileID: 8776937807554887365, guid: c7e635156b0ac984c8f10d4d8b30f3fb, type: 3}
     count: 2
     rate: 1
-  timeBetweenWaves: 5
+  timeBetweenWaves: 3
   WaveCountdownText: {fileID: 841695183}
   gameManager: {fileID: 1463586104}
 --- !u!4 &1463586101
